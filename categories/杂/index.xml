@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>杂 on 章魚仔🐙</title>
+    <link>https://swhhy.github.io/categories/%E6%9D%82/</link>
+    <description>Recent content in 杂 on 章魚仔🐙</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 18 Mar 2019 02:01:58 +0530</lastBuildDate>
+    
+	<atom:link href="https://swhhy.github.io/categories/%E6%9D%82/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MarkDown语法笔记</title>
+      <link>https://swhhy.github.io/posts/markdown%E8%AF%AD%E6%B3%95/</link>
+      <pubDate>Mon, 18 Mar 2019 02:01:58 +0530</pubDate>
+      
+      <guid>https://swhhy.github.io/posts/markdown%E8%AF%AD%E6%B3%95/</guid>
+      <description>markdown语法    使用#号标记标题
+# 一级标题## 二级标题### 三级标题以此类推 最高六级  一级标题 二级标题 三级标题 ​ 以此类推 最高六级
+  字体
+*斜体文本***粗体文本*****粗斜体文本***斜体文本 粗体文本 粗斜体文本
+  分割线
+***   删除线
+~~这里被删掉了~~~~this is deleted~~这里被删掉了
+this is deleted
+  下划线
+&amp;lt;u&amp;gt;带下划线文本&amp;lt;/u&amp;gt;带下划线文本  脚注
+[^要标注的文本]eg：创建脚注格式类似这样[^GGBIRD][^GGBIRD]:卖鱼人王雷的梗，暗指小小鸟创建脚注格式类似这样 1
+  无序列表
+* first* second* third (*后面一个空格)  first</description>
+    </item>
+    
+  </channel>
+</rss>
