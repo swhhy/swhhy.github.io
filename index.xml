@@ -138,8 +138,8 @@
 &lt;ol start=&#34;0&#34;&gt;
 &lt;li&gt;
 &lt;p&gt;文字环绕&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;红浮动在蓝上方，蓝文本围绕在红外&lt;/p&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;红div浮动，蓝div不浮动，红浮动在蓝上方，蓝文本未设置text-align属性，蓝文本自动围绕在红外&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;脱离了标准文档流&lt;/p&gt;
@@ -148,11 +148,16 @@
 &lt;li&gt;
 &lt;p&gt;浮动元素互相替贴靠&lt;/p&gt;
 &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;​		红蓝div皆float: left&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
 &lt;li&gt;
 &lt;p&gt;浮动元素有收缩现象&lt;/p&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;(若未设置浮动元素的宽高，为防止占据空间，对下方的元素遮挡，自动宽度为字体的宽度)&lt;/p&gt;
+&lt;p&gt;​		(若未设置浮动元素的宽高，为防止占据空间，对下方的元素遮挡，自动宽度为字体的宽度)&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;浮动元素的破坏性&lt;/strong&gt;&lt;/p&gt;
@@ -231,9 +236,6 @@ body:
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;BFC&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
 - https://swhhy.github.io/posts/%E6%B5%AE%E5%8A%A8/ - </description>
         </item>
     

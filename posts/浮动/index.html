@@ -34,9 +34,6 @@
 
 
 
-<link rel="icon" href="/content/images/zhangyu_64px.png">
-
-
 
 
 <link rel="stylesheet" href="https://swhhy.github.io/scss/journal.min.47aa1ffb60880ad8c72feecd6962a14331eca7a7a30e08354a1ca91009b8bc5b.css" integrity="sha256-R6of&#43;2CICtjHL&#43;7NaWKhQzHsp6ejDgg1ShypEAm4vFs=" media="screen">
@@ -176,6 +173,46 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
 </div><div ref="extraContainer" class="extra-container">
     
     
+    <div class="toc animated-visibility" :class="{ invisible: scrollY <= 140 }">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- CATALOG -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								<ul class="collapse" data-toggle="collapse">
+							
+						
+						
+							<li>
+								<a href="#%e6%b5%ae%e5%8a%a8" onclick="collapseOthers(`#浮动-nav`)" id="浮动-nav">
+									浮动
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+    
     <div class="pagination">
         <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }">
             <i class="material-icons pagination-action-icon">
@@ -253,6 +290,46 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
                 </a>
                 
             
+            
+            <div class="toc">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- CATALOG -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								<ul class="collapse" data-toggle="collapse">
+							
+						
+						
+							<li>
+								<a href="#%e6%b5%ae%e5%8a%a8" onclick="collapseOthers(`#浮动-nav`)" id="浮动-nav">
+									浮动
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
             
         </div>
     </div>
@@ -354,8 +431,8 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
 <ol start="0">
 <li>
 <p>文字环绕</p>
-<!-- raw HTML omitted -->
-<p>红浮动在蓝上方，蓝文本围绕在红外</p>
+<p><!-- raw HTML omitted --></p>
+<p>红div浮动，蓝div不浮动，红浮动在蓝上方，蓝文本未设置text-align属性，蓝文本自动围绕在红外</p>
 </li>
 <li>
 <p>脱离了标准文档流</p>
@@ -364,11 +441,16 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
 <li>
 <p>浮动元素互相替贴靠</p>
 </li>
+</ol>
+<p><!-- raw HTML omitted --></p>
+<p>​		红蓝div皆float: left</p>
+<ol start="3">
 <li>
 <p>浮动元素有收缩现象</p>
+<p><!-- raw HTML omitted --></p>
 </li>
 </ol>
-<p>(若未设置浮动元素的宽高，为防止占据空间，对下方的元素遮挡，自动宽度为字体的宽度)</p>
+<p>​		(若未设置浮动元素的宽高，为防止占据空间，对下方的元素遮挡，自动宽度为字体的宽度)</p>
 </li>
 <li>
 <p><strong>浮动元素的破坏性</strong></p>
@@ -447,9 +529,6 @@ body:
 </ul>
 </li>
 </ol>
-<ul>
-<li><strong>BFC</strong></li>
-</ul>
 
                     
                     <HR width="100%" id="EOF">
