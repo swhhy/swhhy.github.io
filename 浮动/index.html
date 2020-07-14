@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html><head>
-<title>杂</title>
+<title>css元素浮动</title>
 
 
 
@@ -10,7 +10,7 @@
 <meta name="google-site-verification" content="">
 <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
 <meta content="telephone=no" name="format-detection">
-<meta name="description" content="">
+<meta name="description" content="css-float">
 <meta name="renderer" content="webkit">
 <meta name="theme-color" content="#ffffff">
 
@@ -51,7 +51,29 @@
 
 
 
+  
+    <script src="https://swhhy.github.io/js/toc-collapse.js"></script>
+  
 
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+<script src="/vendor/js/md5.min.js"></script>
+<script>
+  var gitalk = new Gitalk({
+  clientID: '',
+  clientSecret: '',
+  repo: '',
+  owner: '',
+  admin: [''],
+  id: md5(location.pathname),
+  distractionFreeMode: 'false'
+  });
+  window.onload = function () {
+        gitalk.render('gitalk-container')
+  }
+</script>
 
 
 
@@ -81,11 +103,9 @@
             
             
             
-                
             
             
-            
-            <a class="a-block nav-link-item active" href="/categories">
+            <a class="a-block nav-link-item false" href="/categories">
                 分類
             </a>
             
@@ -151,6 +171,46 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
 </div><div ref="extraContainer" class="extra-container">
     
     
+    <div class="toc animated-visibility" :class="{ invisible: scrollY <= 140 }">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- CATALOG -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								<ul class="collapse" data-toggle="collapse">
+							
+						
+						
+							<li>
+								<a href="#%e6%b5%ae%e5%8a%a8" onclick="onNavClick(`#浮动-nav`)" id="浮动-nav">
+									浮动
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+    
     <div class="pagination">
         <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }">
             <i class="material-icons pagination-action-icon">
@@ -168,8 +228,6 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
         </a>
         
         
-        
-        
     </div>
 </div><div class="single-column-drawer-container" ref="drawer"
      v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
@@ -181,11 +239,9 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
                 
                 
                 
-                    
                 
                 
-                
-                <a class="a-block drawer-menu-item active" href="/categories">
+                <a class="a-block drawer-menu-item false" href="/categories">
                     分類
                 </a>
                 
@@ -231,6 +287,46 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
                 
             
             
+            <div class="toc">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- CATALOG -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								<ul class="collapse" data-toggle="collapse">
+							
+						
+						
+							<li>
+								<a href="#%e6%b5%ae%e5%8a%a8" onclick="onNavClick(`#浮动-nav`)" id="浮动-nav">
+									浮动
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+            
         </div>
     </div>
 </div>
@@ -273,41 +369,202 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
             <div id="content">
 <div ref="streamContainer" class="stream-container">
     <div class="post-list-container post-list-container-shadow">
-        <div class="post-item-wrapper post-item-wrapper-no-hover">
-            <div class="post-item post-item-no-gaps">
-                <div class="post-item-info-wrapper">
-                    <div class="post-item-title  post-item-title-small">
-                        <a href="https://swhhy.github.io/">章魚仔🐙</a> / 杂
+        <div class="post">
+            
+            
+            
+                
+            
+
+            <div class="post-head-wrapper"
+                
+                    
+                    
+                    style="background-image: url('https://swhhy.github.io/none')"
+                    
+                
+            >
+                <div class="post-title">
+                    css元素浮动
+                    
+                    <div class="post-subtitle">
+                        css-float
+                    </div>
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2019-03-18 02:01
+                        </time>
+                        
+
+                        
+                            <i class="material-icons" style="">folder</i>
+                                <a href="/categories/css">css</a>
+                                &nbsp;
+                        
+
+                        
+                            <i class="material-icons" style="">label</i>
+                            
+                                <a href="/tags/css">css</a>
+                                &nbsp;
+                            
+                        
+                        
                     </div>
                 </div>
             </div>
-        </div><a href="/markdown%E8%AF%AD%E6%B3%95/" class="a-block">
-            <div class="post-item-wrapper">
-                <div class="post-item post-item-no-gaps">
-                    <div class="post-item-info-wrapper">
-                        <div class="post-item-title">
-                            MarkD0wn语法笔记
-                        </div>
-                        <div class="post-item-meta">
-    2019-03-18
-    &emsp;
-    
-    
-    
-    &emsp;
-    
-</div>
+            
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <h2 id="浮动">浮动</h2>
+<ul>
+<li>
+<p><strong>浮动现象</strong></p>
+<ol start="0">
+<li>
+<p>文字环绕</p>
+<p><img src="/images/image-20200709173525619.png" alt="image-20200709173525619" style="zoom:50%;" /></p>
+<p>红div浮动，蓝div不浮动，红浮动在蓝上方，蓝文本未设置text-align属性，蓝文本自动围绕在红外</p>
+</li>
+<li>
+<p>脱离了标准文档流</p>
+<p>(<strong>标准文档流</strong> 是元素排版布局过程中，元素会默认自动从左往右，从上往下的流式排列方式。并最终窗体自上而下分成一行行，并在每行中从左至右的顺序排放元素)</p>
+</li>
+<li>
+<p>浮动元素互相替贴靠</p>
+</li>
+</ol>
+<p><img src="/images/image-20200709173445016.png" alt="image-20200709173445016" style="zoom:50%;" /></p>
+<p>​		红蓝div皆float: left</p>
+<ol start="3">
+<li>
+<p>浮动元素有收缩现象</p>
+<p><img src="/images/image-20200709173643122.png" alt="image-20200709173643122" style="zoom:50%;" /></p>
+</li>
+</ol>
+<p>​		(若未设置浮动元素的宽高，为防止占据空间，对下方的元素遮挡，自动宽度为字体的宽度)</p>
+</li>
+<li>
+<p><strong>浮动元素的破坏性</strong></p>
+<p>元素浮动后，脱离父亲，若父亲的高度由子代决定，则父亲变形。</p>
+</li>
+<li>
+<p><strong>消除浮动方式</strong>（34重点）</p>
+</li>
+</ul>
+<ol>
+<li>
+<p>给父元素设置固定高度</p>
+<ul>
+<li>缺点：维护不方便</li>
+<li>应用： 网页中盒子高度固定，比如固定的导航栏</li>
+</ul>
+</li>
+<li>
+<p>内墙法：</p>
+<ul>
+<li>规则：在最后一个浮动元素的后面加一个空的块级元素，并设置该属性 clear：both；</li>
+<li>缺点：结构冗余</li>
+</ul>
+</li>
+<li>
+<p>伪元素（选择器）清除</p>
+<ul>
+<li>规则：在浮动元素后增加一个空的块级元素，并设置该属性 clear：both；
+<ul>
+<li>eg：</li>
+</ul>
+</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">css:
+&lt;<span style="color:#f92672">style</span>&gt;
+.<span style="color:#a6e22e">top</span>::<span style="color:#a6e22e">after</span>{
+    <span style="color:#66d9ef">content</span>:<span style="color:#e6db74">&#39;&#39;</span>;    <span style="color:#960050;background-color:#1e0010">#空内容</span>
+    <span style="color:#66d9ef">display</span>:<span style="color:#66d9ef">block</span>; <span style="color:#960050;background-color:#1e0010">#块状元素</span>
+    <span style="color:#66d9ef">clear</span>:<span style="color:#66d9ef">both</span>;    <span style="color:#960050;background-color:#1e0010">#清除浮动</span>
+}
+&lt;/<span style="color:#f92672">style</span>&gt;
+body:
+&lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;top&#34;</span> &gt;		
+ &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;left&#34;</span>&gt;left box&lt;/<span style="color:#f92672">div</span>&gt;
+ &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;right&#34;</span>&gt;right box&lt;/<span style="color:#f92672">div</span>&gt;
+&lt;/<span style="color:#f92672">div</span>&gt;
+</code></pre></div></li>
+<li>
+<p>overflow</p>
+<ul>
+<li>
+<p>overflow是个属性</p>
+<ul>
+<li>overflow: hidden 超出父亲部分不可见</li>
+<li>overflow: scroll 父亲可滚动，全部内容可见</li>
+<li>overflow: visible (默认)默认可见</li>
+</ul>
+</li>
+<li>
+<p>overflow：hidden可消除浮动</p>
+<ul>
+<li>
+<p>css2中使用此属性会创建一个BFC（区级盒子）区域，是独立渲染的区域，容纳所有的子代元素</p>
+</li>
+<li>
+<p>BFC区域的一条规则：计算BFC的高度时，<em>浮动元素也参与</em></p>
+</li>
+<li>
+<p>形成BFC的条件：除了overflow：visible的属性值都可</p>
+</li>
+<li>
+<p>（Block Formatting Context）</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
 
-                    </div>
+                    
+                    <HR width="100%" id="EOF">
+		    <p style="color:#777;">Last modified on 2019-03-18</p>
+                    
                 </div>
             </div>
-        </a></div>
-</div>
+            
+            
+            <nav class="post-pagination">
+
+                
+                <a class="newer-posts" href="https://swhhy.github.io/%E5%AE%9A%E4%BD%8D/">
+			Next<br>css元素定位
+                </a>
+                
+                
+                
+                <a class="older-posts" href="https://swhhy.github.io/%E8%83%8C%E6%99%AF/">
+			Previous<br>css背景属性
+                </a>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
+
+
+<div id="gitalk-container"></div>
+
+
+
+
+
 
             </div>
+        </div>
+    </div>
+</div>
 
-
-<div id="single-column-footer">
+            </div><div id="single-column-footer">
 Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
 <br>
 Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>

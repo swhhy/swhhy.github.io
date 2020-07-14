@@ -12,12 +12,34 @@
     
     
         <item>
+        <title>Test</title>
+        <link>https://swhhy.github.io/test/</link>
+        <pubDate>Tue, 14 Jul 2020 12:26:31 +0800</pubDate>
+        
+        <guid>https://swhhy.github.io/test/</guid>
+        <description>章魚仔🐙 https://swhhy.github.io/test/ -&lt;p&gt;&lt;img src=&#34;https://swhhy.github.io/images/image-20200709173445016.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;标题&#34;&gt;标题&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;aaa&lt;/li&gt;
+&lt;li&gt;bbb&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;next&#34;&gt;next&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;why&lt;/li&gt;
+&lt;li&gt;reason&lt;/li&gt;
+&lt;/ol&gt;
+- https://swhhy.github.io/test/ - </description>
+        </item>
+    
+    
+    
+        <item>
         <title>css元素定位</title>
-        <link>https://swhhy.github.io/posts/%E5%AE%9A%E4%BD%8D/</link>
+        <link>https://swhhy.github.io/%E5%AE%9A%E4%BD%8D/</link>
         <pubDate>Mon, 18 Mar 2019 02:01:58 +0530</pubDate>
         
-        <guid>https://swhhy.github.io/posts/%E5%AE%9A%E4%BD%8D/</guid>
-        <description>章魚仔🐙 https://swhhy.github.io/posts/%E5%AE%9A%E4%BD%8D/ -&lt;h2 id=&#34;定位&#34;&gt;定位&lt;/h2&gt;
+        <guid>https://swhhy.github.io/%E5%AE%9A%E4%BD%8D/</guid>
+        <description>章魚仔🐙 https://swhhy.github.io/%E5%AE%9A%E4%BD%8D/ -&lt;h2 id=&#34;定位&#34;&gt;定位&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;相对定位&lt;/strong&gt;&lt;/p&gt;
@@ -42,8 +64,8 @@
 &lt;ol&gt;
 &lt;li&gt;脱离了标准文档流&lt;/li&gt;
 &lt;li&gt;压盖现象（层级提高 ）&lt;/li&gt;
-&lt;li&gt;单独一个盒子时候，以&lt;!-- raw HTML omitted --&gt;根元素页面左上角&lt;!-- raw HTML omitted --&gt;（即HTML不是body，body有margin）&lt;/li&gt;
-&lt;li&gt;多个盒子时候，相对于&lt;!-- raw HTML omitted --&gt;最近的非static祖先元素&lt;!-- raw HTML omitted --&gt;定位，如果没有，那么以页面根元素左上角进行定位&lt;/li&gt;
+&lt;li&gt;单独一个盒子时候，以&lt;u&gt;根元素页面左上角&lt;/u&gt;（即HTML不是body，body有margin）&lt;/li&gt;
+&lt;li&gt;多个盒子时候，相对于&lt;u&gt;最近的非static祖先元素&lt;/u&gt;定位，如果没有，那么以页面根元素左上角进行定位&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;li&gt;子绝父相： 子元素绝对定位  父亲相对定位&lt;/li&gt;
@@ -118,25 +140,25 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-- https://swhhy.github.io/posts/%E5%AE%9A%E4%BD%8D/ - </description>
+- https://swhhy.github.io/%E5%AE%9A%E4%BD%8D/ - </description>
         </item>
     
     
     
         <item>
         <title>css元素浮动</title>
-        <link>https://swhhy.github.io/posts/%E6%B5%AE%E5%8A%A8/</link>
+        <link>https://swhhy.github.io/%E6%B5%AE%E5%8A%A8/</link>
         <pubDate>Mon, 18 Mar 2019 02:01:58 +0530</pubDate>
         
-        <guid>https://swhhy.github.io/posts/%E6%B5%AE%E5%8A%A8/</guid>
-        <description>章魚仔🐙 https://swhhy.github.io/posts/%E6%B5%AE%E5%8A%A8/ -&lt;h2 id=&#34;浮动&#34;&gt;浮动&lt;/h2&gt;
+        <guid>https://swhhy.github.io/%E6%B5%AE%E5%8A%A8/</guid>
+        <description>章魚仔🐙 https://swhhy.github.io/%E6%B5%AE%E5%8A%A8/ -&lt;h2 id=&#34;浮动&#34;&gt;浮动&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;浮动现象&lt;/strong&gt;&lt;/p&gt;
 &lt;ol start=&#34;0&#34;&gt;
 &lt;li&gt;
 &lt;p&gt;文字环绕&lt;/p&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://swhhy.github.io/images/image-20200709173525619.png&#34; alt=&#34;image-20200709173525619&#34; style=&#34;zoom:50%;&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;红div浮动，蓝div不浮动，红浮动在蓝上方，蓝文本未设置text-align属性，蓝文本自动围绕在红外&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -147,12 +169,12 @@
 &lt;p&gt;浮动元素互相替贴靠&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://swhhy.github.io/images/image-20200709173445016.png&#34; alt=&#34;image-20200709173445016&#34; style=&#34;zoom:50%;&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;​		红蓝div皆float: left&lt;/p&gt;
 &lt;ol start=&#34;3&#34;&gt;
 &lt;li&gt;
 &lt;p&gt;浮动元素有收缩现象&lt;/p&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://swhhy.github.io/images/image-20200709173643122.png&#34; alt=&#34;image-20200709173643122&#34; style=&#34;zoom:50%;&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;​		(若未设置浮动元素的宽高，为防止占据空间，对下方的元素遮挡，自动宽度为字体的宽度)&lt;/p&gt;
@@ -234,18 +256,18 @@ body:
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-- https://swhhy.github.io/posts/%E6%B5%AE%E5%8A%A8/ - </description>
+- https://swhhy.github.io/%E6%B5%AE%E5%8A%A8/ - </description>
         </item>
     
     
     
         <item>
         <title>css背景属性</title>
-        <link>https://swhhy.github.io/posts/%E8%83%8C%E6%99%AF/</link>
+        <link>https://swhhy.github.io/%E8%83%8C%E6%99%AF/</link>
         <pubDate>Mon, 18 Mar 2019 02:01:58 +0530</pubDate>
         
-        <guid>https://swhhy.github.io/posts/%E8%83%8C%E6%99%AF/</guid>
-        <description>章魚仔🐙 https://swhhy.github.io/posts/%E8%83%8C%E6%99%AF/ -&lt;h2 id=&#34;背景&#34;&gt;背景&lt;/h2&gt;
+        <guid>https://swhhy.github.io/%E8%83%8C%E6%99%AF/</guid>
+        <description>章魚仔🐙 https://swhhy.github.io/%E8%83%8C%E6%99%AF/ -&lt;h2 id=&#34;背景&#34;&gt;背景&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;背景属性&lt;/strong&gt;&lt;/p&gt;
@@ -318,19 +340,19 @@ body:
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-- https://swhhy.github.io/posts/%E8%83%8C%E6%99%AF/ - </description>
+- https://swhhy.github.io/%E8%83%8C%E6%99%AF/ - </description>
         </item>
     
     
     
         <item>
         <title>MarkD0wn语法笔记</title>
-        <link>https://swhhy.github.io/posts/markdown%E8%AF%AD%E6%B3%95/</link>
+        <link>https://swhhy.github.io/markdown%E8%AF%AD%E6%B3%95/</link>
         <pubDate>Mon, 18 Mar 2019 02:01:58 +0530</pubDate>
         
-        <guid>https://swhhy.github.io/posts/markdown%E8%AF%AD%E6%B3%95/</guid>
-        <description>章魚仔🐙 https://swhhy.github.io/posts/markdown%E8%AF%AD%E6%B3%95/ -&lt;h3 id=&#34;markdown语法&#34;&gt;markdown语法&lt;/h3&gt;
-&lt;hr&gt;
+        <guid>https://swhhy.github.io/markdown%E8%AF%AD%E6%B3%95/</guid>
+        <description>章魚仔🐙 https://swhhy.github.io/markdown%E8%AF%AD%E6%B3%95/ -&lt;h3 id=&#34;markdown语法&#34;&gt;markdown语法&lt;/h3&gt;
+&lt;hr /&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;使用#号标记标题&lt;/strong&gt;&lt;/p&gt;
@@ -357,7 +379,7 @@ body:
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;分割线&lt;/strong&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;***
-&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;hr /&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;删除线&lt;/strong&gt;&lt;/p&gt;
@@ -369,7 +391,7 @@ body:
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;下划线&lt;/strong&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;&amp;lt;u&amp;gt;带下划线文本&amp;lt;/u&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;!-- raw HTML omitted --&gt;带下划线文本&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;u&gt;带下划线文本&lt;/u&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;脚注&lt;/strong&gt;&lt;/p&gt;
@@ -546,9 +568,9 @@ or
 * **图片**
 
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;第一种：
-&lt;img src=&#34;C:%5CUsers%5Cdell%5CPictures%5C666%5Csunn.bmp&#34; alt=&#34;&#34; title=&#34;sun&#34;&gt;&lt;/p&gt;
+&lt;img src=&#34;C:%5CUsers%5Cdell%5CPictures%5C666%5Csunn.bmp&#34; alt=&#34;&#34; title=&#34;sun&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;第二种：（使用img标签还可以指定图片大小）
-&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;img src=&#34;C:\Users\dell\Desktop\sun.jpg&#34; width=&#34;20%&#34;&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;
 ![](C:\Users\dell\Desktop\sun.jpg &amp;quot;sun&amp;quot;)
 
@@ -600,15 +622,15 @@ or
 | 单元格 | 单元格 |  单元格  |
 
 
-&lt;/code&gt;&lt;/pre&gt;&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
-&lt;hr&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr /&gt;
 &lt;ol&gt;
 &lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
 &lt;p&gt;卖鱼人王雷的梗，暗指小小鸟 &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/section&gt;
-- https://swhhy.github.io/posts/markdown%E8%AF%AD%E6%B3%95/ - </description>
+&lt;/div&gt;
+- https://swhhy.github.io/markdown%E8%AF%AD%E6%B3%95/ - </description>
         </item>
     
     

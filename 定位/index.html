@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html><head>
-<title>杂</title>
+<title>css元素定位</title>
 
 
 
@@ -10,7 +10,7 @@
 <meta name="google-site-verification" content="">
 <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
 <meta content="telephone=no" name="format-detection">
-<meta name="description" content="">
+<meta name="description" content="css-position">
 <meta name="renderer" content="webkit">
 <meta name="theme-color" content="#ffffff">
 
@@ -51,7 +51,29 @@
 
 
 
+  
+    <script src="https://swhhy.github.io/js/toc-collapse.js"></script>
+  
 
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+<script src="/vendor/js/md5.min.js"></script>
+<script>
+  var gitalk = new Gitalk({
+  clientID: '',
+  clientSecret: '',
+  repo: '',
+  owner: '',
+  admin: [''],
+  id: md5(location.pathname),
+  distractionFreeMode: 'false'
+  });
+  window.onload = function () {
+        gitalk.render('gitalk-container')
+  }
+</script>
 
 
 
@@ -81,11 +103,9 @@
             
             
             
-                
             
             
-            
-            <a class="a-block nav-link-item active" href="/categories">
+            <a class="a-block nav-link-item false" href="/categories">
                 分類
             </a>
             
@@ -151,6 +171,46 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
 </div><div ref="extraContainer" class="extra-container">
     
     
+    <div class="toc animated-visibility" :class="{ invisible: scrollY <= 140 }">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- CATALOG -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								<ul class="collapse" data-toggle="collapse">
+							
+						
+						
+							<li>
+								<a href="#%e5%ae%9a%e4%bd%8d" onclick="onNavClick(`#定位-nav`)" id="定位-nav">
+									定位
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+    
     <div class="pagination">
         <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }">
             <i class="material-icons pagination-action-icon">
@@ -168,8 +228,6 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
         </a>
         
         
-        
-        
     </div>
 </div><div class="single-column-drawer-container" ref="drawer"
      v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
@@ -181,11 +239,9 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
                 
                 
                 
-                    
                 
                 
-                
-                <a class="a-block drawer-menu-item active" href="/categories">
+                <a class="a-block drawer-menu-item false" href="/categories">
                     分類
                 </a>
                 
@@ -231,6 +287,46 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
                 
             
             
+            <div class="toc">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- CATALOG -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								<ul class="collapse" data-toggle="collapse">
+							
+						
+						
+							<li>
+								<a href="#%e5%ae%9a%e4%bd%8d" onclick="onNavClick(`#定位-nav`)" id="定位-nav">
+									定位
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+            
         </div>
     </div>
 </div>
@@ -273,41 +369,198 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
             <div id="content">
 <div ref="streamContainer" class="stream-container">
     <div class="post-list-container post-list-container-shadow">
-        <div class="post-item-wrapper post-item-wrapper-no-hover">
-            <div class="post-item post-item-no-gaps">
-                <div class="post-item-info-wrapper">
-                    <div class="post-item-title  post-item-title-small">
-                        <a href="https://swhhy.github.io/">章魚仔🐙</a> / 杂
+        <div class="post">
+            
+            
+            
+                
+            
+
+            <div class="post-head-wrapper"
+                
+                    
+                    
+                    style="background-image: url('https://swhhy.github.io/none')"
+                    
+                
+            >
+                <div class="post-title">
+                    css元素定位
+                    
+                    <div class="post-subtitle">
+                        css-position
+                    </div>
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2019-03-18 02:01
+                        </time>
+                        
+
+                        
+                            <i class="material-icons" style="">folder</i>
+                                <a href="/categories/css">css</a>
+                                &nbsp;
+                        
+
+                        
+                            <i class="material-icons" style="">label</i>
+                            
+                                <a href="/tags/css">css</a>
+                                &nbsp;
+                            
+                        
+                        
                     </div>
                 </div>
             </div>
-        </div><a href="/markdown%E8%AF%AD%E6%B3%95/" class="a-block">
-            <div class="post-item-wrapper">
-                <div class="post-item post-item-no-gaps">
-                    <div class="post-item-info-wrapper">
-                        <div class="post-item-title">
-                            MarkD0wn语法笔记
-                        </div>
-                        <div class="post-item-meta">
-    2019-03-18
-    &emsp;
-    
-    
-    
-    &emsp;
-    
-</div>
+            
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <h2 id="定位">定位</h2>
+<ul>
+<li>
+<p><strong>相对定位</strong></p>
+<ul>
+<li>规则： position：relative</li>
+<li>参考点：相对于原来的位置（当父元素为根元素时候，以BODY左上角）</li>
+<li>eg：</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">style</span>&gt;
+    <span style="color:#f92672">div</span>{
+        <span style="color:#66d9ef">position</span>:<span style="color:#66d9ef">relative</span>;
+        <span style="color:#66d9ef">top</span>:<span style="color:#ae81ff">20</span><span style="color:#66d9ef">px</span>;
+        <span style="color:#66d9ef">left</span>:<span style="color:#ae81ff">-20</span><span style="color:#66d9ef">px</span>;
+    }
+&lt;/<span style="color:#f92672">style</span>&gt;
+</code></pre></div></li>
+<li>
+<p><strong>绝对定位</strong></p>
+<ul>
+<li>规则：position：absolute</li>
+<li>特点：
+<ol>
+<li>脱离了标准文档流</li>
+<li>压盖现象（层级提高 ）</li>
+<li>单独一个盒子时候，以<u>根元素页面左上角</u>（即HTML不是body，body有margin）</li>
+<li>多个盒子时候，相对于<u>最近的非static祖先元素</u>定位，如果没有，那么以页面根元素左上角进行定位</li>
+</ol>
+</li>
+<li>子绝父相： 子元素绝对定位  父亲相对定位</li>
+</ul>
+</li>
+<li>
+<p><strong>固定定位</strong></p>
+</li>
+<li>
+<p>规则： position：fixed</p>
+</li>
+<li>
+<p>特点：</p>
+<ol>
+<li>
+<p>脱离标准文档流</p>
+</li>
+<li>
+<p>以浏览器左上角为固定点（HTML）</p>
+</li>
+</ol>
+</li>
+<li>
+<p><strong>三种定位方式</strong></p>
+<ul>
+<li>one以<code>body</code>左上角，与浏览器有间隔，body的margin</li>
+<li>two与three以 <code>HTML</code> 为参考点，即浏览器页面左上角</li>
+</ul>
+</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">style</span>&gt;
+.<span style="color:#a6e22e">one</span>{
+			<span style="color:#66d9ef">position</span>: <span style="color:#66d9ef">relative</span>;
+			<span style="color:#66d9ef">top</span>:<span style="color:#ae81ff">0</span><span style="color:#66d9ef">px</span>;
+			<span style="color:#66d9ef">left</span>:<span style="color:#ae81ff">0</span><span style="color:#66d9ef">px</span>;
+			<span style="color:#66d9ef">background-color</span>: <span style="color:#66d9ef">red</span>;
+		}
+		.<span style="color:#a6e22e">two</span>{
+			<span style="color:#66d9ef">position</span>: <span style="color:#66d9ef">absolute</span>;
+			<span style="color:#66d9ef">top</span>:<span style="color:#ae81ff">0</span><span style="color:#66d9ef">px</span>;
+			<span style="color:#66d9ef">left</span>:<span style="color:#ae81ff">0</span><span style="color:#66d9ef">px</span>;
+			<span style="color:#66d9ef">background-color</span>: <span style="color:#66d9ef">blue</span>;
+		}
+		.<span style="color:#a6e22e">three</span>{
+			<span style="color:#75715e">/*display: none;*/</span>
+			<span style="color:#66d9ef">position</span>: <span style="color:#66d9ef">fixed</span>;
+			<span style="color:#66d9ef">top</span>:<span style="color:#ae81ff">0</span><span style="color:#66d9ef">px</span>;
+			<span style="color:#66d9ef">left</span>:<span style="color:#ae81ff">0</span><span style="color:#66d9ef">px</span>;
+			<span style="color:#66d9ef">background-color</span>: <span style="color:#66d9ef">yellow</span>;
+		}
+&lt;/<span style="color:#f92672">style</span>&gt;
+</code></pre></div><ul>
+<li>
+<p><strong>浮动和定位对行内元素的影响🐎</strong></p>
+<ul>
+<li>
+<p>将行内元素设置<code>浮动</code> <code>绝对定位</code> <code>固定定位</code> 时候，元素脱离了标准文档流，可任意设置宽高</p>
+</li>
+<li>
+<p>将行内元素设置 <code>相对定位</code>时候，元素并未脱标，仍然是行内元素，不可设置宽高</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>z-index</strong></p>
+<ul>
+<li>控制定位元素的层级（<strong>只能运用在定位元素上</strong>）</li>
+<li>规则：z-index：整数（数字越大层级越高）</li>
+<li>默认z-index：auto</li>
+<li>默认定位元素层级高于非定位元素</li>
+<li><strong>子代层级取决于父亲，即父亲的z-index优先级高</strong></li>
+</ul>
+</li>
+</ul>
 
-                    </div>
+                    
+                    <HR width="100%" id="EOF">
+		    <p style="color:#777;">Last modified on 2019-03-18</p>
+                    
                 </div>
             </div>
-        </a></div>
-</div>
+            
+            
+            <nav class="post-pagination">
+
+                
+                <a class="newer-posts" href="https://swhhy.github.io/test/">
+			Next<br>Test
+                </a>
+                
+                
+                
+                <a class="older-posts" href="https://swhhy.github.io/%E6%B5%AE%E5%8A%A8/">
+			Previous<br>css元素浮动
+                </a>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
+
+
+<div id="gitalk-container"></div>
+
+
+
+
+
 
             </div>
+        </div>
+    </div>
+</div>
 
-
-<div id="single-column-footer">
+            </div><div id="single-column-footer">
 Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
 <br>
 Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>

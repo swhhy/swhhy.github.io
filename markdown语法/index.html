@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html><head>
-<title>杂</title>
+<title>MarkD0wn语法笔记</title>
 
 
 
@@ -10,7 +10,7 @@
 <meta name="google-site-verification" content="">
 <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
 <meta content="telephone=no" name="format-detection">
-<meta name="description" content="">
+<meta name="description" content="markdown语法笔记">
 <meta name="renderer" content="webkit">
 <meta name="theme-color" content="#ffffff">
 
@@ -51,7 +51,29 @@
 
 
 
+  
+    <script src="https://swhhy.github.io/js/toc-collapse.js"></script>
+  
 
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+<script src="/vendor/js/md5.min.js"></script>
+<script>
+  var gitalk = new Gitalk({
+  clientID: '',
+  clientSecret: '',
+  repo: '',
+  owner: '',
+  admin: [''],
+  id: md5(location.pathname),
+  distractionFreeMode: 'false'
+  });
+  window.onload = function () {
+        gitalk.render('gitalk-container')
+  }
+</script>
 
 
 
@@ -81,11 +103,9 @@
             
             
             
-                
             
             
-            
-            <a class="a-block nav-link-item active" href="/categories">
+            <a class="a-block nav-link-item false" href="/categories">
                 分類
             </a>
             
@@ -151,6 +171,116 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
 </div><div ref="extraContainer" class="extra-container">
     
     
+    <div class="toc animated-visibility" :class="{ invisible: scrollY <= 140 }">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- CATALOG -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								<ul class="collapse" data-toggle="collapse">
+							
+								<ul class="collapse" data-toggle="collapse">
+							
+						
+						
+							<li>
+								<a href="#markdown%e8%af%ad%e6%b3%95" onclick="onNavClick(`#markdown语法-nav`)" id="markdown语法-nav">
+									markdown语法
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+							
+								</ul>
+							
+								</ul>
+							
+						
+						
+						
+							<li>
+								<a href="#%e4%b8%80%e7%ba%a7%e6%a0%87%e9%a2%98" onclick="onNavClick(`#一级标题-nav`)" id="一级标题-nav">
+									一级标题
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								<ul class="collapse" data-toggle="collapse">
+							
+						
+						
+							<li>
+								<a href="#%e4%ba%8c%e7%ba%a7%e6%a0%87%e9%a2%98" onclick="onNavClick(`#二级标题-nav`)" id="二级标题-nav">
+									二级标题
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								<ul class="collapse" data-toggle="collapse">
+							
+						
+						
+							<li>
+								<a href="#%e4%b8%89%e7%ba%a7%e6%a0%87%e9%a2%98" onclick="onNavClick(`#三级标题-nav`)" id="三级标题-nav">
+									三级标题
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+    
     <div class="pagination">
         <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }">
             <i class="material-icons pagination-action-icon">
@@ -168,8 +298,6 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
         </a>
         
         
-        
-        
     </div>
 </div><div class="single-column-drawer-container" ref="drawer"
      v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
@@ -181,11 +309,9 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
                 
                 
                 
-                    
                 
                 
-                
-                <a class="a-block drawer-menu-item active" href="/categories">
+                <a class="a-block drawer-menu-item false" href="/categories">
                     分類
                 </a>
                 
@@ -231,6 +357,116 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
                 
             
             
+            <div class="toc">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- CATALOG -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								<ul class="collapse" data-toggle="collapse">
+							
+								<ul class="collapse" data-toggle="collapse">
+							
+						
+						
+							<li>
+								<a href="#markdown%e8%af%ad%e6%b3%95" onclick="onNavClick(`#markdown语法-nav`)" id="markdown语法-nav">
+									markdown语法
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+							
+								</ul>
+							
+								</ul>
+							
+						
+						
+						
+							<li>
+								<a href="#%e4%b8%80%e7%ba%a7%e6%a0%87%e9%a2%98" onclick="onNavClick(`#一级标题-nav`)" id="一级标题-nav">
+									一级标题
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								<ul class="collapse" data-toggle="collapse">
+							
+						
+						
+							<li>
+								<a href="#%e4%ba%8c%e7%ba%a7%e6%a0%87%e9%a2%98" onclick="onNavClick(`#二级标题-nav`)" id="二级标题-nav">
+									二级标题
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								<ul class="collapse" data-toggle="collapse">
+							
+						
+						
+							<li>
+								<a href="#%e4%b8%89%e7%ba%a7%e6%a0%87%e9%a2%98" onclick="onNavClick(`#三级标题-nav`)" id="三级标题-nav">
+									三级标题
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+            
         </div>
     </div>
 </div>
@@ -273,41 +509,376 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
             <div id="content">
 <div ref="streamContainer" class="stream-container">
     <div class="post-list-container post-list-container-shadow">
-        <div class="post-item-wrapper post-item-wrapper-no-hover">
-            <div class="post-item post-item-no-gaps">
-                <div class="post-item-info-wrapper">
-                    <div class="post-item-title  post-item-title-small">
-                        <a href="https://swhhy.github.io/">章魚仔🐙</a> / 杂
+        <div class="post">
+            
+            
+            
+                
+            
+
+            <div class="post-head-wrapper"
+                
+                    
+                    
+                    style="background-image: url('https://swhhy.github.io/none')"
+                    
+                
+            >
+                <div class="post-title">
+                    MarkD0wn语法笔记
+                    
+                    <div class="post-subtitle">
+                        markdown语法笔记
+                    </div>
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2019-03-18 02:01
+                        </time>
+                        
+
+                        
+                            <i class="material-icons" style="">folder</i>
+                                <a href="/categories/%E6%9D%82">杂</a>
+                                &nbsp;
+                        
+
+                        
+                            <i class="material-icons" style="">label</i>
+                            
+                                <a href="/tags/markdown">MarkDown</a>
+                                &nbsp;
+                            
+                        
+                        
                     </div>
                 </div>
             </div>
-        </div><a href="/markdown%E8%AF%AD%E6%B3%95/" class="a-block">
-            <div class="post-item-wrapper">
-                <div class="post-item post-item-no-gaps">
-                    <div class="post-item-info-wrapper">
-                        <div class="post-item-title">
-                            MarkD0wn语法笔记
-                        </div>
-                        <div class="post-item-meta">
-    2019-03-18
-    &emsp;
-    
-    
-    
-    &emsp;
-    
+            
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <h3 id="markdown语法">markdown语法</h3>
+<hr />
+<ul>
+<li>
+<p><strong>使用#号标记标题</strong></p>
+<pre><code># 一级标题
+## 二级标题
+### 三级标题
+以此类推 最高六级
+</code></pre></li>
+</ul>
+<h1 id="一级标题">一级标题</h1>
+<h2 id="二级标题">二级标题</h2>
+<h3 id="三级标题">三级标题</h3>
+<p>​       以此类推 最高六级</p>
+<ul>
+<li>
+<p><strong>字体</strong></p>
+<pre><code>*斜体文本*
+**粗体文本**
+***粗斜体文本***
+</code></pre><p><em>斜体文本</em>
+<strong>粗体文本</strong>
+<em><strong>粗斜体文本</strong></em></p>
+</li>
+<li>
+<p><strong>分割线</strong></p>
+<pre><code>***
+</code></pre><hr />
+</li>
+<li>
+<p><strong>删除线</strong></p>
+<pre><code>~~这里被删掉了~~
+~~this is deleted~~
+</code></pre><p><del>这里被删掉了</del></p>
+<p><del>this is deleted</del></p>
+</li>
+<li>
+<p><strong>下划线</strong></p>
+<pre><code>&lt;u&gt;带下划线文本&lt;/u&gt;
+</code></pre><p><u>带下划线文本</u></p>
+</li>
+<li>
+<p><strong>脚注</strong></p>
+<pre><code>[^要标注的文本]
+  
+eg：
+创建脚注格式类似这样[^GGBIRD]
+[^GGBIRD]:卖鱼人王雷的梗，暗指小小鸟
+</code></pre><p>创建脚注格式类似这样 <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+</li>
+<li>
+<p><strong>无序列表</strong></p>
+<pre><code>* first
+* second
+* third (*后面一个空格)
+</code></pre></li>
+<li>
+<p>first</p>
+</li>
+<li>
+<p>second</p>
+</li>
+<li>
+<p>third</p>
+</li>
+<li>
+<p><strong>有序列表</strong></p>
+<pre><code>1. first
+2. second
+3. third （.后面一个空格）
+</code></pre><ol>
+<li>
+<p>first</p>
+</li>
+<li>
+<p>second</p>
+</li>
+<li>
+<p>third</p>
+</li>
+</ol>
+</li>
+<li>
+<p><strong>列表嵌套</strong></p>
+<pre><code>只许在子列表前加一个tab or 4*space
+1. first
+  * 11
+  * 22
+2. second
+  * 一
+  * 二
+</code></pre></li>
+</ul>
+<ol>
+<li>first</li>
+</ol>
+<ul>
+<li>11</li>
+<li>22
+<ul>
+<li>33
+<ul>
+<li>44
+<ul>
+<li>55</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ol start="2">
+<li>second</li>
+</ol>
+<ul>
+<li>
+<p>一</p>
+</li>
+<li>
+<p>二</p>
+</li>
+<li>
+<p><strong>区块</strong></p>
+<pre><code>&gt; 区块引用
+&gt; bird
+&gt; dog
+</code></pre><blockquote>
+<p>区块引用
+bird
+dog</p>
+</blockquote>
+<pre><code>&gt; oasuihf
+&gt; &gt; asedg
+&gt; &gt; &gt; sege
+</code></pre><blockquote>
+<p>oasuihf</p>
+<blockquote>
+<p>asedg</p>
+<blockquote>
+<p>sege</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<pre><code>&gt; 区块中使用列表
+&gt; 1. first
+&gt; 2. second
+</code></pre><blockquote>
+<p>区块中使用列表</p>
+<ol>
+<li>first</li>
+<li>second</li>
+</ol>
+</blockquote>
+<pre><code>* first
+  &gt; 列表中使用区块
+  &gt; 同上 tab or 4*space
+* second
+</code></pre><ul>
+<li>
+<p>first</p>
+<blockquote>
+<p>列表中使用区块
+aegwagn</p>
+</blockquote>
+</li>
+<li>
+<p>second</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>代码</strong></p>
+<pre><code> c语言中的输出函数是`printf()`
+ python中的输出函数是`print()`
+</code></pre><p>import time
+time.sleep(1)</p>
+<pre><code> 
+</code></pre></li>
+</ul>
+<pre><code> 
+ c语言中的输出函数是  `printf() `  
+ 
+
+python中的输出函数是`print()`
+
+</code></pre><p>import time
+time.sleep(1)</p>
+<pre><code>
+
+
+* **链接**
+
+</code></pre><p>了解详情请访问<a href="www.pornhub.com">pornhub</a>
+or
+&lt;www.pornhub.com&gt;</p>
+<pre><code>
+了解详情请访问[pornhub](www.pornhub.com)
+or
+&lt;www.pornhub.com&gt;
+
+</code></pre><p>这个链接用1作为网址变量<a href="http://www.pornhub.com/">pornhub</a>
+这个链接用2作为网址变量<a href="http://www.xvideos.com/">xvideos</a>
+然后在文档的结尾为变量赋值(网址)</p>
+<pre><code>
+这个链接用1作为网址变量[pornhub][1]
+这个链接用2作为网址变量[xvideos][2]
+然后在文档的结尾为变量赋值(网址)
+
+[1]:http://www.pornhub.com/
+[2]:http://www.xvideos.com/
+[]:
+
+* **图片**
+
+</code></pre><p>第一种：
+<img src="C:%5CUsers%5Cdell%5CPictures%5C666%5Csunn.bmp" alt="" title="sun" /></p>
+<p>第二种：（使用img标签还可以指定图片大小）
+<img src="C:\Users\dell\Desktop\sun.jpg" width="20%"></p>
+<pre><code>
+![](C:\Users\dell\Desktop\sun.jpg &quot;sun&quot;)
+
+&lt;img src=&quot;C:\Users\dell\Desktop\sun.jpg&quot; width=&quot;20%&quot;&gt;
+
+
+
+* **表格**
+
+</code></pre><p>制作表格使用 | 来分隔不同的单元格，使用 - 来分隔表头和其他行。
+|  表头   | 表头  |
+|  &mdash;-  | &mdash;-  |
+| 单元格  | 单元格 |
+| 单元格  | 单元格 |</p>
+<pre><code> -: 设置内容和标题栏居右对齐。
+ :- 设置内容和标题栏居左对齐。
+ :-: 设置内容和标题栏居中对齐。
+</code></pre>
+<table>
+<thead>
+<tr>
+<th align="left">左对齐</th>
+<th align="right">右对齐</th>
+<th align="center">居中对齐</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">单元格</td>
+<td align="right">单元格</td>
+<td align="center">单元格</td>
+</tr>
+<tr>
+<td align="left">单元格</td>
+<td align="right">单元格</td>
+<td align="center">单元格</td>
+</tr>
+</tbody>
+</table>
+<pre><code>
+| 表头   | 表头   |
+| ------ | ------ |
+| 单元格 | 单元格 |
+| 单元格 | 单元格 |
+
+| 左对齐 | 右对齐 | 居中对齐 |
+| :----- | -----: | :------: |
+| 单元格 | 单元格 |  单元格  |
+| 单元格 | 单元格 |  单元格  |
+
+
+</code></pre><div class="footnotes" role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>卖鱼人王雷的梗，暗指小小鸟 <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
 </div>
 
-                    </div>
+                    
+                    <HR width="100%" id="EOF">
+		    <p style="color:#777;">Last modified on 2019-03-18</p>
+                    
                 </div>
             </div>
-        </a></div>
-</div>
+            
+            
+            <nav class="post-pagination">
+
+                
+                <a class="newer-posts" href="https://swhhy.github.io/%E8%83%8C%E6%99%AF/">
+			Next<br>css背景属性
+                </a>
+                
+                
+                
+                <a class="older-posts">
+			Previous<br>No older posts.
+                </a>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
+
+
+<div id="gitalk-container"></div>
+
+
+
+
+
 
             </div>
+        </div>
+    </div>
+</div>
 
-
-<div id="single-column-footer">
+            </div><div id="single-column-footer">
 Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
 <br>
 Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
