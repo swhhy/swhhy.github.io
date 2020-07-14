@@ -24,7 +24,7 @@
   特点：
   脱离标准文档流
   以浏览器左上角为固定点（HTML）
-      三种定位方式
+    三种定位方式
  one以body左上角，与浏览器有间隔，body的margin two与three以 HTML 为参考点，即浏览器页面左上角    &amp;lt;style&amp;gt; .one{ position: relative; top:0px; left:0px; background-color: red; } .</description>
     </item>
     
