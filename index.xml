@@ -28,6 +28,8 @@
 &lt;li&gt;why&lt;/li&gt;
 &lt;li&gt;reason&lt;/li&gt;
 &lt;/ol&gt;
+&lt;h3 id=&#34;sanji&#34;&gt;sanji&lt;/h3&gt;
+&lt;h1 id=&#34;大标题&#34;&gt;大标题&lt;/h1&gt;
 - https://swhhy.github.io/test/ - </description>
         </item>
     
@@ -39,10 +41,7 @@
         <pubDate>Mon, 18 Mar 2019 02:01:58 +0530</pubDate>
         
         <guid>https://swhhy.github.io/%E5%AE%9A%E4%BD%8D/</guid>
-        <description>章魚仔🐙 https://swhhy.github.io/%E5%AE%9A%E4%BD%8D/ -&lt;h2 id=&#34;定位&#34;&gt;定位&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;相对定位&lt;/strong&gt;&lt;/p&gt;
+        <description>章魚仔🐙 https://swhhy.github.io/%E5%AE%9A%E4%BD%8D/ -&lt;h1 id=&#34;相对定位&#34;&gt;相对定位&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;规则： position：relative&lt;/li&gt;
 &lt;li&gt;参考点：相对于原来的位置（当父元素为根元素时候，以BODY左上角）&lt;/li&gt;
@@ -55,9 +54,7 @@
         &lt;span style=&#34;color:#66d9ef&#34;&gt;left&lt;/span&gt;:&lt;span style=&#34;color:#ae81ff&#34;&gt;-20&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;px&lt;/span&gt;;
     }
 &amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;style&lt;/span&gt;&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;绝对定位&lt;/strong&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;绝对定位&#34;&gt;绝对定位&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;规则：position：absolute&lt;/li&gt;
 &lt;li&gt;特点：
@@ -70,10 +67,8 @@
 &lt;/li&gt;
 &lt;li&gt;子绝父相： 子元素绝对定位  父亲相对定位&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;固定定位&lt;/strong&gt;&lt;/p&gt;
-&lt;/li&gt;
+&lt;h1 id=&#34;固定定位&#34;&gt;固定定位&lt;/h1&gt;
+&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;规则： position：fixed&lt;/p&gt;
 &lt;/li&gt;
@@ -117,9 +112,7 @@
 			&lt;span style=&#34;color:#66d9ef&#34;&gt;background-color&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;yellow&lt;/span&gt;;
 		}
 &amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;style&lt;/span&gt;&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;浮动和定位对行内元素的影响🐎&lt;/strong&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;浮动和定位对行内元素的影响&#34;&gt;浮动和定位对行内元素的影响&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;将行内元素设置&lt;code&gt;浮动&lt;/code&gt; &lt;code&gt;绝对定位&lt;/code&gt; &lt;code&gt;固定定位&lt;/code&gt; 时候，元素脱离了标准文档流，可任意设置宽高&lt;/p&gt;
@@ -128,17 +121,13 @@
 &lt;p&gt;将行内元素设置 &lt;code&gt;相对定位&lt;/code&gt;时候，元素并未脱标，仍然是行内元素，不可设置宽高&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;z-index&lt;/strong&gt;&lt;/p&gt;
+&lt;h1 id=&#34;z-index&#34;&gt;z-index&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;控制定位元素的层级（&lt;strong&gt;只能运用在定位元素上&lt;/strong&gt;）&lt;/li&gt;
 &lt;li&gt;规则：z-index：整数（数字越大层级越高）&lt;/li&gt;
 &lt;li&gt;默认z-index：auto&lt;/li&gt;
 &lt;li&gt;默认定位元素层级高于非定位元素&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;子代层级取决于父亲，即父亲的z-index优先级高&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
 &lt;/ul&gt;
 - https://swhhy.github.io/%E5%AE%9A%E4%BD%8D/ - </description>
         </item>
@@ -151,14 +140,11 @@
         <pubDate>Mon, 18 Mar 2019 02:01:58 +0530</pubDate>
         
         <guid>https://swhhy.github.io/%E6%B5%AE%E5%8A%A8/</guid>
-        <description>章魚仔🐙 https://swhhy.github.io/%E6%B5%AE%E5%8A%A8/ -&lt;h2 id=&#34;浮动&#34;&gt;浮动&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;浮动现象&lt;/strong&gt;&lt;/p&gt;
+        <description>章魚仔🐙 https://swhhy.github.io/%E6%B5%AE%E5%8A%A8/ -&lt;h1 id=&#34;浮动现象&#34;&gt;浮动现象&lt;/h1&gt;
 &lt;ol start=&#34;0&#34;&gt;
 &lt;li&gt;
 &lt;p&gt;文字环绕&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://swhhy.github.io/images/image-20200709173525619.png&#34; alt=&#34;image-20200709173525619&#34; style=&#34;zoom:50%;&#34; /&gt;&lt;/p&gt;
+  &lt;div align=&#34;center&#34;&gt;&lt;img src=&#34;https://swhhy.github.io/images/image-20200709173525619.png&#34; style=&#34;zoom:50%;&#34;/&gt;&lt;/div&gt;
 &lt;p&gt;红div浮动，蓝div不浮动，红浮动在蓝上方，蓝文本未设置text-align属性，蓝文本自动围绕在红外&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -169,24 +155,22 @@
 &lt;p&gt;浮动元素互相替贴靠&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;https://swhhy.github.io/images/image-20200709173445016.png&#34; alt=&#34;image-20200709173445016&#34; style=&#34;zoom:50%;&#34; /&gt;&lt;/p&gt;
+&lt;div align=&#34;center&#34;&gt;&lt;img src=&#34;https://swhhy.github.io/images/image-20200709173445016.png&#34; alt=&#34;image-20200709173445016&#34; style=&#34;zoom:50%;&#34; /&gt;&lt;/div&gt;
 &lt;p&gt;​		红蓝div皆float: left&lt;/p&gt;
 &lt;ol start=&#34;3&#34;&gt;
 &lt;li&gt;
 &lt;p&gt;浮动元素有收缩现象&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://swhhy.github.io/images/image-20200709173643122.png&#34; alt=&#34;image-20200709173643122&#34; style=&#34;zoom:50%;&#34; /&gt;&lt;/p&gt;
+&lt;div align=&#34;center&#34;&gt;&lt;img src=&#34;https://swhhy.github.io/images/image-20200709173643122.png&#34; alt=&#34;image-20200709173643122&#34; style=&#34;zoom:50%;&#34; /&gt;&lt;/div&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;​		(若未设置浮动元素的宽高，为防止占据空间，对下方的元素遮挡，自动宽度为字体的宽度)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;浮动元素的破坏性&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;元素浮动后，脱离父亲，若父亲的高度由子代决定，则父亲变形。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;消除浮动方式&lt;/strong&gt;（34重点）&lt;/p&gt;
-&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;若未设置浮动元素的宽高，为防止占据空间，对下方的元素遮挡，自动宽度为字体的宽度&lt;/li&gt;
 &lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h1 id=&#34;浮动元素破坏性&#34;&gt;浮动元素破坏性&lt;/h1&gt;
+&lt;p&gt;元素浮动后，脱离父亲，若父亲的高度由子代决定，则父亲变形。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h1 id=&#34;消除浮动方式34重点&#34;&gt;消除浮动方式（34重点）&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;给父元素设置固定高度&lt;/p&gt;
@@ -205,11 +189,8 @@
 &lt;li&gt;
 &lt;p&gt;伪元素（选择器）清除&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;规则：在浮动元素后增加一个空的块级元素，并设置该属性 clear：both；
-&lt;ul&gt;
+&lt;li&gt;规则：在浮动元素后增加一个空的块级元素，并设置该属性 &lt;code&gt;clear：both&lt;/code&gt;；&lt;/li&gt;
 &lt;li&gt;eg：&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;css:
 &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;style&lt;/span&gt;&amp;gt;
@@ -228,34 +209,30 @@ body:
 &lt;li&gt;
 &lt;p&gt;overflow&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;overflow是个属性&lt;/p&gt;
+&lt;li&gt;overflow是个属性
 &lt;ul&gt;
 &lt;li&gt;overflow: hidden 超出父亲部分不可见&lt;/li&gt;
 &lt;li&gt;overflow: scroll 父亲可滚动，全部内容可见&lt;/li&gt;
 &lt;li&gt;overflow: visible (默认)默认可见&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;overflow：hidden可消除浮动&lt;/p&gt;
+&lt;li&gt;overflow：hidden可消除浮动
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;css2中使用此属性会创建一个BFC（区级盒子）区域，是独立渲染的区域，容纳所有的子代元素&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;BFC区域的一条规则：计算BFC的高度时，&lt;em&gt;浮动元素也参与&lt;/em&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;形成BFC的条件：除了overflow：visible的属性值都可&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;（Block Formatting Context）&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;css2中使用此属性会创建一个BFC（区级盒子）区域，是独立渲染的区域，容纳所有的子代元素&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;BFC区域的一条规则：计算BFC的高度时，&lt;em&gt;浮动元素也参与&lt;/em&gt;
+&lt;ul&gt;
+&lt;li&gt;形成BFC的条件：除了overflow：visible的属性值都可&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;（Block Formatting Context）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
 - https://swhhy.github.io/%E6%B5%AE%E5%8A%A8/ - </description>
         </item>
     
@@ -267,23 +244,30 @@ body:
         <pubDate>Mon, 18 Mar 2019 02:01:58 +0530</pubDate>
         
         <guid>https://swhhy.github.io/%E8%83%8C%E6%99%AF/</guid>
-        <description>章魚仔🐙 https://swhhy.github.io/%E8%83%8C%E6%99%AF/ -&lt;h2 id=&#34;背景&#34;&gt;背景&lt;/h2&gt;
+        <description>章魚仔🐙 https://swhhy.github.io/%E8%83%8C%E6%99%AF/ -&lt;h1 id=&#34;背景属性&#34;&gt;背景属性&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;背景属性&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;综合属性：background&lt;/li&gt;
-&lt;li&gt;background-color: 背景色&lt;/li&gt;
-&lt;li&gt;background-image: url( &amp;lsquo;图像地址&amp;rsquo;)&lt;/li&gt;
-&lt;li&gt;background-repeat:  &lt;strong&gt;图片平铺方式&lt;/strong&gt;
+&lt;p&gt;综合属性：background&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;background-color: 背景色&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;background-image: url( &amp;lsquo;图像地址&amp;rsquo;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;background-repeat:  &lt;strong&gt;图片平铺方式&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;默认：repeat&lt;/li&gt;
 &lt;li&gt;x轴方向重复：repeat-x&lt;/li&gt;
 &lt;li&gt;不重复： no-repeat&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;background-position-x:   background-position-y:&lt;/li&gt;
-&lt;li&gt;background-position: &lt;strong&gt;背景定位&lt;/strong&gt;
+&lt;li&gt;
+&lt;p&gt;background-position-x:   background-position-y:&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;background-position: &lt;strong&gt;背景定位&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;默认： 0 0
 &lt;ul&gt;
@@ -294,34 +278,42 @@ body:
 &lt;li&gt;水平百分比的值=容器宽度的百分比 - 背景图片宽度百分比&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;background-size: px px &lt;strong&gt;控制背景图片大小&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;background（综合属性）：url（） position repeat&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;li&gt;
+&lt;p&gt;background-size: px px &lt;strong&gt;控制背景图片大小&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;background（综合属性）：url（） position repeat&lt;/strong&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;雪碧图（CSS sprite）技术&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;应用：
+&lt;li&gt;
+&lt;p&gt;应用：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;静态图片，不随用户信息变化而变化&lt;/li&gt;
 &lt;li&gt;小图片，图片比较小（2~3kb）&lt;/li&gt;
 &lt;li&gt;加载量比较大的大图不建议使用雪碧图&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;优点：
+&lt;li&gt;
+&lt;p&gt;优点：&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;有效减少http的请求数量，加速内容显示&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;规则：利用background-position：将大图裁剪成小图，将元素移动到特定位置&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;边框属性&#34;&gt;边框属性&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;有效减少http的请求数量，加速内容显示&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;规则：利用background-position：将大图裁剪成小图，将元素移动到特定位置&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;边框属性&lt;/strong&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;border-radius: 3px 3px 3px
-*  value=50%可实现圆&lt;/p&gt;
+&lt;p&gt;border-radius: 3px 3px 3px&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;value=50%可实现圆&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;border-top-left-radius: 1px 2px&lt;/p&gt;
@@ -346,83 +338,83 @@ body:
     
     
         <item>
-        <title>MarkD0wn语法笔记</title>
+        <title>MarkDown语法笔记</title>
         <link>https://swhhy.github.io/markdown%E8%AF%AD%E6%B3%95/</link>
         <pubDate>Mon, 18 Mar 2019 02:01:58 +0530</pubDate>
         
         <guid>https://swhhy.github.io/markdown%E8%AF%AD%E6%B3%95/</guid>
-        <description>章魚仔🐙 https://swhhy.github.io/markdown%E8%AF%AD%E6%B3%95/ -&lt;h3 id=&#34;markdown语法&#34;&gt;markdown语法&lt;/h3&gt;
-&lt;hr /&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;使用#号标记标题&lt;/strong&gt;&lt;/p&gt;
+        <description>章魚仔🐙 https://swhhy.github.io/markdown%E8%AF%AD%E6%B3%95/ -&lt;h1 id=&#34;使用号标记标题&#34;&gt;使用#号标记标题&lt;/h1&gt;
+&lt;p&gt;⚪🐎：&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;# 一级标题
 ## 二级标题
 ### 三级标题
 以此类推 最高六级
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;😀🍎：&lt;/p&gt;
 &lt;h1 id=&#34;一级标题&#34;&gt;一级标题&lt;/h1&gt;
 &lt;h2 id=&#34;二级标题&#34;&gt;二级标题&lt;/h2&gt;
 &lt;h3 id=&#34;三级标题&#34;&gt;三级标题&lt;/h3&gt;
-&lt;p&gt;​       以此类推 最高六级&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;字体&lt;/strong&gt;&lt;/p&gt;
+&lt;li&gt;以此类推 最高六级&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h1 id=&#34;字体&#34;&gt;字体&lt;/h1&gt;
+&lt;p&gt;⚪🐎：&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;*斜体文本*
 **粗体文本**
 ***粗斜体文本***
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;em&gt;斜体文本&lt;/em&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;😀🍎：&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;斜体文本&lt;/em&gt;
 &lt;strong&gt;粗体文本&lt;/strong&gt;
 &lt;em&gt;&lt;strong&gt;粗斜体文本&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;分割线&lt;/strong&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h1 id=&#34;分割线&#34;&gt;分割线&lt;/h1&gt;
+&lt;p&gt;⚪🐎：&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;***
-&lt;/code&gt;&lt;/pre&gt;&lt;hr /&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;删除线&lt;/strong&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;😀🍎：&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h1 id=&#34;删除线&#34;&gt;删除线&lt;/h1&gt;
+&lt;p&gt;⚪🐎：&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;~~这里被删掉了~~
 ~~this is deleted~~
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;del&gt;这里被删掉了&lt;/del&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;😀🍎：&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;这里被删掉了&lt;/del&gt;&lt;/p&gt;
 &lt;p&gt;&lt;del&gt;this is deleted&lt;/del&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;下划线&lt;/strong&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h1 id=&#34;下划线&#34;&gt;下划线&lt;/h1&gt;
+&lt;p&gt;⚪🐎：&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;&amp;lt;u&amp;gt;带下划线文本&amp;lt;/u&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;u&gt;带下划线文本&lt;/u&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;脚注&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;[^要标注的文本]
-  
-eg：
-创建脚注格式类似这样[^GGBIRD]
-[^GGBIRD]:卖鱼人王雷的梗，暗指小小鸟
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;创建脚注格式类似这样 &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;无序列表&lt;/strong&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;😀🍎：&lt;/p&gt;
+&lt;p&gt;&lt;u&gt;带下划线文本&lt;/u&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h1 id=&#34;脚注&#34;&gt;脚注&lt;/h1&gt;
+&lt;p&gt;⚪🐎：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  规则：[^要标注的文本]
+  eg：
+  创建脚注格式类似这样[^GUGUBIRD]
+  [^GGBIRD]:卖鱼人王雷的梗
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;😀🍎：&lt;/p&gt;
+&lt;p&gt;[^要标注的文本]&lt;/p&gt;
+&lt;p&gt;创建脚注格式类似这样 [^GGBIRD]&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h1 id=&#34;无序列表&#34;&gt;无序列表&lt;/h1&gt;
+&lt;p&gt;⚪🐎：&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;* first
 * second
 * third (*后面一个空格)
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;first&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;second&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;third&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;有序列表&lt;/strong&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;😀🍎：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;first&lt;/li&gt;
+&lt;li&gt;second&lt;/li&gt;
+&lt;li&gt;third&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h1 id=&#34;有序列表&#34;&gt;有序列表&lt;/h1&gt;
+&lt;p&gt;⚪🐎：&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;1. first
 2. second
 3. third （.后面一个空格）
-&lt;/code&gt;&lt;/pre&gt;&lt;ol&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;😀🍎：&lt;/p&gt;
+&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;first&lt;/p&gt;
 &lt;/li&gt;
@@ -433,18 +425,18 @@ eg：
 &lt;p&gt;third&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;列表嵌套&lt;/strong&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h1 id=&#34;列表镶嵌&#34;&gt;列表镶嵌&lt;/h1&gt;
+&lt;p&gt;⚪🐎：&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;只许在子列表前加一个tab or 4*space
 1. first
   * 11
   * 22
+      * 33
 2. second
   * 一
   * 二
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;😀🍎：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;first&lt;/li&gt;
 &lt;/ol&gt;
@@ -452,15 +444,7 @@ eg：
 &lt;li&gt;11&lt;/li&gt;
 &lt;li&gt;22
 &lt;ul&gt;
-&lt;li&gt;33
-&lt;ul&gt;
-&lt;li&gt;44
-&lt;ul&gt;
-&lt;li&gt;55&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
+&lt;li&gt;33&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -474,20 +458,16 @@ eg：
 &lt;li&gt;
 &lt;p&gt;二&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;区块&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;&amp;gt; 区块引用
-&amp;gt; bird
-&amp;gt; dog
-&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
-&lt;p&gt;区块引用
-bird
-dog&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;​&lt;/p&gt;
+&lt;h1 id=&#34;区块&#34;&gt;区块&lt;/h1&gt;
+&lt;p&gt;⚪🐎：&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;&amp;gt; oasuihf
 &amp;gt; &amp;gt; asedg
 &amp;gt; &amp;gt; &amp;gt; sege
-&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;😀🍎：&lt;/p&gt;
+&lt;blockquote&gt;
 &lt;p&gt;oasuihf&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;asedg&lt;/p&gt;
@@ -496,21 +476,25 @@ dog&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;/blockquote&gt;
 &lt;/blockquote&gt;
+&lt;p&gt;⚪🐎：&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;&amp;gt; 区块中使用列表
 &amp;gt; 1. first
 &amp;gt; 2. second
-&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;😀🍎：&lt;/p&gt;
+&lt;blockquote&gt;
 &lt;p&gt;区块中使用列表&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;first&lt;/li&gt;
 &lt;li&gt;second&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/blockquote&gt;
+&lt;p&gt;⚪🐎：&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;* first
   &amp;gt; 列表中使用区块
   &amp;gt; 同上 tab or 4*space
 * second
-&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;😀🍎：&lt;/p&gt;
+&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;first&lt;/p&gt;
 &lt;blockquote&gt;
@@ -522,30 +506,26 @@ aegwagn&lt;/p&gt;
 &lt;p&gt;second&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;代码&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt; c语言中的输出函数是`printf()`
- python中的输出函数是`print()`
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;import time
-time.sleep(1)&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt; 
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt; 
- c语言中的输出函数是  `printf() `  
- 
-
+&lt;hr /&gt;
+&lt;h1 id=&#34;代码&#34;&gt;代码&lt;/h1&gt;
+&lt;p&gt;⚪🐎：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;c语言中的输出函数是`printf()`
 python中的输出函数是`print()`
 
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;import time
-time.sleep(1)&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;
-
-
-* **链接**
-
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;了解详情请访问&lt;a href=&#34;www.pornhub.com&#34;&gt;pornhub&lt;/a&gt;
+```
+import time
+time.sleep(1)
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;😀🍎：&lt;/p&gt;
+&lt;p&gt;c语言中的输出函数是&lt;code&gt;printf()&lt;/code&gt;
+python中的输出函数是&lt;code&gt;print()&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; time
+time&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;sleep(&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr /&gt;
+&lt;h1 id=&#34;链接&#34;&gt;链接&lt;/h1&gt;
+&lt;p&gt;⚪🐎：&lt;/p&gt;
+&lt;p&gt;了解详情请访问&lt;a href=&#34;www.pornhub.com&#34;&gt;pornhub&lt;/a&gt;
 or
 &amp;lt;www.pornhub.com&amp;gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;
@@ -553,42 +533,62 @@ or
 or
 &amp;lt;www.pornhub.com&amp;gt;
 
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;这个链接用1作为网址变量&lt;a href=&#34;http://www.pornhub.com/&#34;&gt;pornhub&lt;/a&gt;
-这个链接用2作为网址变量&lt;a href=&#34;http://www.xvideos.com/&#34;&gt;xvideos&lt;/a&gt;
-然后在文档的结尾为变量赋值(网址)&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;
-这个链接用1作为网址变量[pornhub][1]
-这个链接用2作为网址变量[xvideos][2]
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;😀🍎：&lt;/p&gt;
+&lt;p&gt;这个链接用1作为网址变量&lt;a href=&#34;http://www.pornhub.com/&#34;&gt;pornhub&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;然后在文档的结尾为变量赋值(网址)&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;这个链接用作为网址变量[pornhub][1]
 然后在文档的结尾为变量赋值(网址)
-
 [1]:http://www.pornhub.com/
-[2]:http://www.xvideos.com/
-[]:
 
-* **图片**
+&lt;/code&gt;&lt;/pre&gt;&lt;hr /&gt;
+&lt;h1 id=&#34;图片&#34;&gt;图片&lt;/h1&gt;
+&lt;p&gt;⚪🐎：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;推荐使用html标签&amp;lt;img&amp;gt;
+html标签
+&amp;lt;img src=&amp;quot;/images/3.jpg&amp;quot; width=&amp;quot;60%&amp;quot; align=&amp;quot;center&amp;quot;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;😀🍎:&lt;/p&gt;
+&lt;div align=&#34;center&#34;&gt;&lt;img src=&#34;https://swhhy.github.io/images/3.jpg&#34; align=&#34;center&#34; width=&#34;40%&#34;&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;width图片宽度占页宽百分比&lt;/li&gt;
+&lt;li&gt;align：left right center&lt;/li&gt;
+&lt;li&gt;或使用外嵌div标签，并设置div的align属性&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h1 id=&#34;表格&#34;&gt;表格&lt;/h1&gt;
+&lt;p&gt;制作表格使用 | 来分隔不同的单元格，使用 - 来分隔表头和其他行。&lt;/p&gt;
+&lt;p&gt;⚪🐎：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt; | 表头   | 表头   |
+ | ------ | ------ |
+ | 单元格 | 单元格 |
+ | 单元格 | 单元格 |
 
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;第一种：
-&lt;img src=&#34;C:%5CUsers%5Cdell%5CPictures%5C666%5Csunn.bmp&#34; alt=&#34;&#34; title=&#34;sun&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;第二种：（使用img标签还可以指定图片大小）
-&lt;img src=&#34;C:\Users\dell\Desktop\sun.jpg&#34; width=&#34;20%&#34;&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;
-![](C:\Users\dell\Desktop\sun.jpg &amp;quot;sun&amp;quot;)
-
-&amp;lt;img src=&amp;quot;C:\Users\dell\Desktop\sun.jpg&amp;quot; width=&amp;quot;20%&amp;quot;&amp;gt;
-
-
-
-* **表格**
-
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;制作表格使用 | 来分隔不同的单元格，使用 - 来分隔表头和其他行。
-|  表头   | 表头  |
-|  &amp;mdash;-  | &amp;mdash;-  |
-| 单元格  | 单元格 |
-| 单元格  | 单元格 |&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt; -: 设置内容和标题栏居右对齐。
+| 左对齐 | 右对齐 | 居中对齐 |
+| :----- | -----: | :------: |
+| 单元格 | 单元格 |  单元格  |
+| 单元格 | 单元格 |  单元格  |
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt; -: 设置内容和标题栏居右对齐。
  :- 设置内容和标题栏居左对齐。
  :-: 设置内容和标题栏居中对齐。
 &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;😀🍎：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;表头&lt;/th&gt;
+&lt;th&gt;表头&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;单元格&lt;/td&gt;
+&lt;td&gt;单元格&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;单元格&lt;/td&gt;
+&lt;td&gt;单元格&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -610,26 +610,10 @@ or
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;pre&gt;&lt;code&gt;
-| 表头   | 表头   |
-| ------ | ------ |
-| 单元格 | 单元格 |
-| 单元格 | 单元格 |
-
-| 左对齐 | 右对齐 | 居中对齐 |
-| :----- | -----: | :------: |
-| 单元格 | 单元格 |  单元格  |
-| 单元格 | 单元格 |  单元格  |
-
-
-&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr /&gt;
-&lt;ol&gt;
-&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;卖鱼人王雷的梗，暗指小小鸟 &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;页面显示原因，部分markdown样式与预期不符，一切以MarkDown(github)样式为标准&lt;/li&gt;
+&lt;/ul&gt;
 - https://swhhy.github.io/markdown%E8%AF%AD%E6%B3%95/ - </description>
         </item>
     

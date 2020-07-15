@@ -191,14 +191,28 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
 						
 						
 						
-							
-								<ul class="collapse" data-toggle="collapse">
-							
+						
+							<li>
+								<a href="#%e8%83%8c%e6%99%af%e5%b1%9e%e6%80%a7" onclick="onNavClick(`#背景属性-nav`)" id="背景属性-nav">
+									背景属性
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
 						
 						
 							<li>
-								<a href="#%e8%83%8c%e6%99%af" onclick="onNavClick(`#背景-nav`)" id="背景-nav">
-									背景
+								<a href="#%e8%be%b9%e6%a1%86%e5%b1%9e%e6%80%a7" onclick="onNavClick(`#边框属性-nav`)" id="边框属性-nav">
+									边框属性
 								</a>
 							</li>
 						
@@ -307,14 +321,28 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
 						
 						
 						
-							
-								<ul class="collapse" data-toggle="collapse">
-							
+						
+							<li>
+								<a href="#%e8%83%8c%e6%99%af%e5%b1%9e%e6%80%a7" onclick="onNavClick(`#背景属性-nav`)" id="背景属性-nav">
+									背景属性
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
 						
 						
 							<li>
-								<a href="#%e8%83%8c%e6%99%af" onclick="onNavClick(`#背景-nav`)" id="背景-nav">
-									背景
+								<a href="#%e8%be%b9%e6%a1%86%e5%b1%9e%e6%80%a7" onclick="onNavClick(`#边框属性-nav`)" id="边框属性-nav">
+									边框属性
 								</a>
 							</li>
 						
@@ -420,23 +448,30 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
                 
                 <div class="post-body" v-pre>
                 
-                    <h2 id="背景">背景</h2>
+                    <h1 id="背景属性">背景属性</h1>
 <ul>
 <li>
-<p><strong>背景属性</strong></p>
-<ul>
-<li>综合属性：background</li>
-<li>background-color: 背景色</li>
-<li>background-image: url( &lsquo;图像地址&rsquo;)</li>
-<li>background-repeat:  <strong>图片平铺方式</strong>
+<p>综合属性：background</p>
+</li>
+<li>
+<p>background-color: 背景色</p>
+</li>
+<li>
+<p>background-image: url( &lsquo;图像地址&rsquo;)</p>
+</li>
+<li>
+<p>background-repeat:  <strong>图片平铺方式</strong></p>
 <ul>
 <li>默认：repeat</li>
 <li>x轴方向重复：repeat-x</li>
 <li>不重复： no-repeat</li>
 </ul>
 </li>
-<li>background-position-x:   background-position-y:</li>
-<li>background-position: <strong>背景定位</strong>
+<li>
+<p>background-position-x:   background-position-y:</p>
+</li>
+<li>
+<p>background-position: <strong>背景定位</strong></p>
 <ul>
 <li>默认： 0 0
 <ul>
@@ -447,34 +482,42 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
 <li>水平百分比的值=容器宽度的百分比 - 背景图片宽度百分比</li>
 </ul>
 </li>
-<li>background-size: px px <strong>控制背景图片大小</strong></li>
-<li><strong>background（综合属性）：url（） position repeat</strong></li>
-</ul>
+<li>
+<p>background-size: px px <strong>控制背景图片大小</strong></p>
+</li>
+<li>
+<p><strong>background（综合属性）：url（） position repeat</strong></p>
 </li>
 <li>
 <p><strong>雪碧图（CSS sprite）技术</strong></p>
 <ul>
-<li>应用：
+<li>
+<p>应用：</p>
 <ul>
 <li>静态图片，不随用户信息变化而变化</li>
 <li>小图片，图片比较小（2~3kb）</li>
 <li>加载量比较大的大图不建议使用雪碧图</li>
 </ul>
 </li>
-<li>优点：
+<li>
+<p>优点：</p>
+</li>
+<li>
+<p>有效减少http的请求数量，加速内容显示</p>
+</li>
+<li>
+<p>规则：利用background-position：将大图裁剪成小图，将元素移动到特定位置</p>
+</li>
+</ul>
+</li>
+</ul>
+<h1 id="边框属性">边框属性</h1>
 <ul>
-<li>有效减少http的请求数量，加速内容显示</li>
-</ul>
-</li>
-<li>规则：利用background-position：将大图裁剪成小图，将元素移动到特定位置</li>
-</ul>
-</li>
 <li>
-<p><strong>边框属性</strong></p>
-</li>
-<li>
-<p>border-radius: 3px 3px 3px
-*  value=50%可实现圆</p>
+<p>border-radius: 3px 3px 3px</p>
+<ul>
+<li>value=50%可实现圆</li>
+</ul>
 </li>
 <li>
 <p>border-top-left-radius: 1px 2px</p>
@@ -512,7 +555,7 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
                 
                 
                 <a class="older-posts" href="https://swhhy.github.io/markdown%E8%AF%AD%E6%B3%95/">
-			Previous<br>MarkD0wn语法笔记
+			Previous<br>MarkDown语法笔记
                 </a>
                 
             </nav>

@@ -17,15 +17,12 @@
       <pubDate>Mon, 18 Mar 2019 02:01:58 +0530</pubDate>
       
       <guid>https://swhhy.github.io/%E5%AE%9A%E4%BD%8D/</guid>
-      <description>定位   相对定位
- 规则： position：relative 参考点：相对于原来的位置（当父元素为根元素时候，以BODY左上角） eg：  &amp;lt;style&amp;gt; div{ position:relative; top:20px; left:-20px; } &amp;lt;/style&amp;gt;   绝对定位
- 规则：position：absolute 特点：  脱离了标准文档流 压盖现象（层级提高 ） 单独一个盒子时候，以根元素页面左上角（即HTML不是body，body有margin） 多个盒子时候，相对于最近的非static祖先元素定位，如果没有，那么以页面根元素左上角进行定位   子绝父相： 子元素绝对定位 父亲相对定位    固定定位
-  规则： position：fixed
+      <description>相对定位  规则： position：relative 参考点：相对于原来的位置（当父元素为根元素时候，以BODY左上角） eg：  &amp;lt;style&amp;gt; div{ position:relative; top:20px; left:-20px; } &amp;lt;/style&amp;gt; 绝对定位  规则：position：absolute 特点：  脱离了标准文档流 压盖现象（层级提高 ） 单独一个盒子时候，以根元素页面左上角（即HTML不是body，body有margin） 多个盒子时候，相对于最近的非static祖先元素定位，如果没有，那么以页面根元素左上角进行定位   子绝父相： 子元素绝对定位 父亲相对定位  固定定位   规则： position：fixed
   特点：
   脱离标准文档流
   以浏览器左上角为固定点（HTML）
     三种定位方式
- one以body左上角，与浏览器有间隔，body的margin two与three以 HTML 为参考点，即浏览器页面左上角    &amp;lt;style&amp;gt; .one{ position: relative; top:0px; left:0px; background-color: red; } .</description>
+ one以body左上角，与浏览器有间隔，body的margin two与three以 HTML 为参考点，即浏览器页面左上角    &amp;lt;style&amp;gt; .one{ position: relative; top:0px; left:0px; background-color: red; } .two{ position: absolute; top:0px; left:0px; background-color: blue; } .</description>
     </item>
     
     <item>
@@ -34,22 +31,18 @@
       <pubDate>Mon, 18 Mar 2019 02:01:58 +0530</pubDate>
       
       <guid>https://swhhy.github.io/%E6%B5%AE%E5%8A%A8/</guid>
-      <description>浮动   浮动现象
- 文字环绕
-红div浮动，蓝div不浮动，红浮动在蓝上方，蓝文本未设置text-align属性，蓝文本自动围绕在红外
+      <description>浮动现象  文字环绕
+红div浮动，蓝div不浮动，红浮动在蓝上方，蓝文本未设置text-align属性，蓝文本自动围绕在红外
   脱离了标准文档流
 (标准文档流 是元素排版布局过程中，元素会默认自动从左往右，从上往下的流式排列方式。并最终窗体自上而下分成一行行，并在每行中从左至右的顺序排放元素)
   浮动元素互相替贴靠
-  ​	红蓝div皆float: left
+  ​	红蓝div皆float: left
  浮动元素有收缩现象
-  ​	(若未设置浮动元素的宽高，为防止占据空间，对下方的元素遮挡，自动宽度为字体的宽度)
-  浮动元素的破坏性
-元素浮动后，脱离父亲，若父亲的高度由子代决定，则父亲变形。
-  消除浮动方式（34重点）
-    给父元素设置固定高度
+   若未设置浮动元素的宽高，为防止占据空间，对下方的元素遮挡，自动宽度为字体的宽度  浮动元素破坏性 元素浮动后，脱离父亲，若父亲的高度由子代决定，则父亲变形。
+消除浮动方式（34重点）   给父元素设置固定高度
  缺点：维护不方便 应用： 网页中盒子高度固定，比如固定的导航栏    内墙法：
  规则：在最后一个浮动元素的后面加一个空的块级元素，并设置该属性 clear：both； 缺点：结构冗余    伪元素（选择器）清除
- 规则：在浮动元素后增加一个空的块级元素，并设置该属性 clear：both；  eg：    css: &amp;lt;style&amp;gt; .top::after{ content:&amp;#39;&amp;#39;; #空内容 display:block; #块状元素 clear:both; #清除浮动 } &amp;lt;/style&amp;gt; body: &amp;lt;div class=&amp;#34;top&amp;#34; &amp;gt;	&amp;lt;div class=&amp;#34;left&amp;#34;&amp;gt;left box&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;right&amp;#34;&amp;gt;right box&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt;   overflow</description>
+ 规则：在浮动元素后增加一个空的块级元素，并设置该属性 clear：both； eg：  css: &amp;lt;style&amp;gt; .top::after{ content:&amp;#39;&amp;#39;; #空内容 display:block; #块状元素 clear:both; #清除浮动 } &amp;lt;/style&amp;gt; body: &amp;lt;div class=&amp;#34;top&amp;#34; &amp;gt;	&amp;lt;div class=&amp;#34;left&amp;#34;&amp;gt;left box&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;right&amp;#34;&amp;gt;right box&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt;   overflow</description>
     </item>
     
     <item>
@@ -58,9 +51,17 @@
       <pubDate>Mon, 18 Mar 2019 02:01:58 +0530</pubDate>
       
       <guid>https://swhhy.github.io/%E8%83%8C%E6%99%AF/</guid>
-      <description>背景   背景属性
- 综合属性：background background-color: 背景色 background-image: url( &amp;lsquo;图像地址&amp;rsquo;) background-repeat: 图片平铺方式  默认：repeat x轴方向重复：repeat-x 不重复： no-repeat   background-position-x: background-position-y: background-position: 背景定位  默认： 0 0  值可以是关键词：任意两个组合描述位置 （top left right bottom center）   值可以是百分比：50% 50% （0~100） 水平百分比的值=容器宽度的百分比 - 背景图片宽度百分比   background-size: px px 控制背景图片大小 background（综合属性）：url（） position repeat    雪碧图（CSS sprite）技术
- 应用：  静态图片，不随用户信息变化而变化 小图片，图片比较小（2~3kb） 加载量比较大的大图不建议使用雪碧图   优点：  有效减少http的请求数量，加速内容显示   规则：利用background-position：将大图裁剪成小图，将元素移动到特定位置    边框属性</description>
+      <description>背景属性   综合属性：background
+  background-color: 背景色
+  background-image: url( &amp;lsquo;图像地址&amp;rsquo;)
+  background-repeat: 图片平铺方式
+ 默认：repeat x轴方向重复：repeat-x 不重复： no-repeat    background-position-x: background-position-y:
+  background-position: 背景定位
+ 默认： 0 0  值可以是关键词：任意两个组合描述位置 （top left right bottom center）   值可以是百分比：50% 50% （0~100） 水平百分比的值=容器宽度的百分比 - 背景图片宽度百分比    background-size: px px 控制背景图片大小
+  background（综合属性）：url（） position repeat
+  雪碧图（CSS sprite）技术
+  应用：
+ 静态图片，不随用户信息变化而变化 小图片，图片比较小（2~3kb） 加载量比较大的大图不建议使用雪碧图    优点：</description>
     </item>
     
   </channel>
