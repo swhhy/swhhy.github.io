@@ -2461,7 +2461,7 @@ s {
 .search-modal .card {
   position: relative;
   width: 60dvw;
-  max-width: 720px;
+  max-width: 66.66666666666666dvw;
   height: 60dvh;
   margin-left: auto;
   margin-right: auto;
