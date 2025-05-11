@@ -1369,7 +1369,6 @@ figure.highlight table .gutter {
   text-align: right;
   user-select: none;
   border-radius: 5px 0 0 5px;
-  display: none;
 }
 @media (prefers-color-scheme: light) {
   figure.highlight table .gutter {
